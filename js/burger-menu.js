@@ -1,0 +1,1 @@
+(()=>{var t=document.querySelector(".navigation"),e=document.querySelector(".navigation__toggle"),n=document.querySelector(".navigation__lists-wrapper");t.classList.remove("navigation--nojs");e.addEventListener("click",()=>{e.classList.toggle("navigation__toggle--close"),n.classList.toggle("navigation__lists-wrapper--opened")});})();
