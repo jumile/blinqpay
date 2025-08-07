@@ -949,7 +949,7 @@ img {
   }
 } */
 
-@container header(min-width:576px) {
+@container header (min-width:576px) {
   .promo {
     background-image: none
   }
