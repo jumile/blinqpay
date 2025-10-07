@@ -826,7 +826,7 @@ img {
     padding: 160px 0 0 32px;
     display: grid;
     grid-template-columns: minmax(421px, 32%) 1fr;
-    margin-bottom: -208px
+    margin-bottom: 0
   }
 
   .promo::after {
