@@ -898,7 +898,7 @@ img {
 
 @container community (min-width:768px) {
   .community {
-    background-image: url(images/vector/stack.svg#bg-community);
+    background-image: url(../images/vector/stack.svg#bg-community);
     background-size: 100%auto;
     background-repeat: no-repeat;
     background-position: center bottom -180px;
