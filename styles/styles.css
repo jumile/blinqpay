@@ -1543,7 +1543,7 @@ picture:has(.feedback-slider__image:hover)+.feedback-slider__figcaption {
   min-width: 200px
 }
 
-@container content (min-width:1100px) {
+@container footer (min-width:1100px) {
   .order {
     display: flex;
     gap: 70px;
