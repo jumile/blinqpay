@@ -157,6 +157,12 @@ img {
   position: relative
 }
 
+.section-title--with-bg {
+  letter-spacing: .1em;
+  color: #fff;
+  text-align: center
+}
+
 @container content (min-width:768px) {
   .section-title {
     font-family: "Proxima Nova", sans-serif;
