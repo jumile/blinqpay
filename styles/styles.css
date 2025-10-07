@@ -975,7 +975,6 @@ img {
   }
 }
 
-
 .features-list {
   grid-template-columns: repeat(2, 1fr);
   gap: 36px 46px
