@@ -152,10 +152,21 @@ img {
   position: relative
 }
 
-.section-title--with-bg {
-  letter-spacing: .1em;
-  color: #fff;
-  text-align: center
+@container content (min-width:768px) {
+  .section-title {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 129%;
+    color: #857885
+  }
+
+  .section-title--with-bg {
+    letter-spacing: .1em;
+    color: #fff;
+    text-align: center
+  }
 }
 
 .section-title::before {
@@ -200,15 +211,6 @@ img {
 }
 
 @container content (min-width:768px) {
-  .section-title {
-    font-family: "Proxima Nova", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 129%;
-    color: #857885
-  }
-
   .section-title--special::before {
     background: #fff
   }
