@@ -80,16 +80,21 @@ img {
 }
 
 .container-content,
-.container-header {
+.container-header,
+.container-footer {
   container-name: content;
   container-type: inline-size;
   width: 100%;
   margin: 0 auto
 }
 
-.container-header {
+.container-header,
+.container-footer  {
   container-name: header;
   min-width: 360px
+}
+.container-footer {
+  container-name: footer;
 }
 
 .button {
