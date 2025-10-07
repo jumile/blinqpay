@@ -81,7 +81,7 @@ img {
 
 .container-content,
 .container-header {
-  container-name: community;
+  container-name: content;
   container-type: inline-size;
   width: 100%;
   margin: 0 auto
